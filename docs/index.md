@@ -37,7 +37,18 @@
 A Escola Infinito necessita de um sistema para controlar as presenças de seus alunos, pois a operação ainda é realizada totalmente em papel. Assim, esse projeto visa montar essa aplicação de forma a atender todos os requisitos e auxiliar a instituição em seu dia a dia.
 
 # Análise de Requisitos Funcionais e Não-Funcionais
-*&lt;Descrição dos requisitos&gt;*
+
+_Requisitos não funcionais:_
+–	Acessibilidade
+–	Segurança
+–	Desempenho
+
+_Requisitos funcionais:_
+–	Registro de faltas
+–	Relatórios de faltas
+–	Notificações
+–	Acesso a partir de qualquer dispositivo via web (responsivo)
+
 
 # Diagrama de Atividades
 
