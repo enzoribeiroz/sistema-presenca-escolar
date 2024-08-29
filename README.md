@@ -19,9 +19,14 @@ A seguir, os passos para a preparação do projeto:
 10. Segurança é imprescindível nas plataforma de hospedagem de repositórios GIT. CUIDADO com exposição de senha e acesso ao repositório.
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: *Sistema de Presenças*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *LLEG PRESS*
+Enzo Ribeiro - 10418262
+Gabriel Ken Kazama Geronazzo - 10418247
+Lucas Pires de Camargo Sarai - 10418013
+Lucas Zanini da Silva - 10417361
+
 
 # Descrição
 
