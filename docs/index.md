@@ -34,7 +34,7 @@
   
 # Descrição do Projeto
 
-*&lt;Introdução do projeto&gt;*
+A Escola Infinito necessita de um sistema para controlar as presenças de seus alunos, pois a operação ainda é realizada totalmente em papel. Assim, esse projeto visa montar essa aplicação de forma a atender todos os requisitos e auxiliar a instituição em seu dia a dia.
 
 # Análise de Requisitos Funcionais e Não-Funcionais
 *&lt;Descrição dos requisitos&gt;*
