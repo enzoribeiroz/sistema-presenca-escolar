@@ -22,15 +22,18 @@ A seguir, os passos para a preparação do projeto:
 # Projeto: *Sistema de Presenças*
 
 # Grupo: *LLEG PRESS*
-Enzo Ribeiro - 10418262
-Gabriel Ken Kazama Geronazzo - 10418247
-Lucas Pires de Camargo Sarai - 10418013
-Lucas Zanini da Silva - 10417361
+Enzo Ribeiro - 10418262\n
+Gabriel Ken Kazama Geronazzo - 10418247\n
+Lucas Pires de Camargo Sarai - 10418013\n
+Lucas Zanini da Silva - 10417361\n
 
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+*A sua equipe recebeu a responsabilidade de desenvolver este Sistema
+de Presenças e este documento registra as informações levantadas até o
+momento e descreve o que os gestores da escola gostariam de obter com esta
+aplicação.*
 
 # Documentação
 
