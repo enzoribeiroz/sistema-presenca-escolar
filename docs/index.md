@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+*&lt;Sistema de Presenças&gt;*
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
@@ -27,16 +27,11 @@
 
 # Autores
 
-* Aluno 1
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
-
-
+* Enzo Ribeiro - 10418262 |
+* Gabriel Ken Kazama Geronazzo - 10418247 |
+* Lucas Pires de Camargo Sarai - 10418013 |
+* Lucas Zanini da Silva - 10417361
+  
 # Descrição do Projeto
 
 *&lt;Introdução do projeto&gt;*
