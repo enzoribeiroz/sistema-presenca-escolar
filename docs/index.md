@@ -29,7 +29,7 @@
 
 * Enzo Ribeiro - 10418262 
 * Gabriel Ken Kazama Geronazzo - 10418247 
-* Lucas Pires de Camargo Sarai - 10418013|
+* Lucas Pires de Camargo Sarai - 10418013
 * Lucas Zanini da Silva - 10417361
   
 # Descrição do Projeto
