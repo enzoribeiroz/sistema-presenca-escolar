@@ -42,7 +42,7 @@ _Requisitos não funcionais:_<br>
 –	Acessibilidade<br>
 –	Segurança<br>
 –	Desempenho
-<br>
+<br><br>
 _Requisitos funcionais:_<br>
 –	Registro de faltas<br>
 –	Relatórios de faltas<br>
