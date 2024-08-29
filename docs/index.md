@@ -38,15 +38,15 @@ A Escola Infinito necessita de um sistema para controlar as presenças de seus a
 
 # Análise de Requisitos Funcionais e Não-Funcionais
 
-_Requisitos não funcionais:_
-–	Acessibilidade
-–	Segurança
+_Requisitos não funcionais:_<br>
+–	Acessibilidade<br>
+–	Segurança<br>
 –	Desempenho
-
-_Requisitos funcionais:_
-–	Registro de faltas
-–	Relatórios de faltas
-–	Notificações
+<br>
+_Requisitos funcionais:_<br>
+–	Registro de faltas<br>
+–	Relatórios de faltas<br>
+–	Notificações<br>
 –	Acesso a partir de qualquer dispositivo via web (responsivo)
 
 
