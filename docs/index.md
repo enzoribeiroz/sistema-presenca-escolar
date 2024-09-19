@@ -52,7 +52,7 @@ _Requisitos funcionais:_<br>
 
 # Diagrama de Atividades
 
-*&lt;Diagrama para visualizer as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o processo e comportamento.&gt;*
+Disponível em [here](./diagramas/diagrama-de-atividades.png)
 
 # Diagrama de Casos de Uso
 
