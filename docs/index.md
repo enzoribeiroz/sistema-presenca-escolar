@@ -64,29 +64,30 @@ Disponível em [here](./diagramas/diagrama-de-atividades.png)
 | :------- | :--- |
 | Função | Cadastrar a ausência(falta) de um aluno em uma disciplina. |
 | Descrição | Registra no sistema que o aluno estava ausente em uma aula, acrescendo essa falta ao total de faltas do aluno. |
-| Entradas | Registro Acadêmico do aluno, disciplina em que esteve ausente e o professor responsável. | 
-| Ator | Professor responsável. |
+| Entradas | Registro Acadêmico do aluno(RA), disciplina em que esteve ausente e o professor responsável. | 
+| Atores | *Ativo*: Professor responsável
+           *Passivo*: Responsável|
 | Saída | Acréscimo no total de faltas do aluno no sistema. |
-| Destino | Banco de dados do sistema. |
-| Ação | O sistema busca no banco de dados o aluno especificado. Com base nas informações da entrada, cadastra uma falta para esse aluno. Se o percentual de presença estiver entre 75% e 80%, uma notificação via e-mail é emitida para os responsáveis. (ver Notificação). |
+| Destino | Banco de dados do sistema (e responsável - Efeitos colaterais).|
+| Ação | O sistema busca no banco de dados o aluno especificado. Com base nas informações da entrada, cadastra uma falta para esse aluno e calcula o percentual de presença. Se o percentual de presença estiver entre 75% e 80%, uma notificação via e-mail é emitida para os responsáveis. (ver Notificação). |
 | Requer | Todas as informações de entrada são obrigatórias para possível contestação da falta no futuro. |
-| Pré-condição | |
-| Pós-condição | |
-| Efeitos | |
+| Pré-condição | O aluno estar matriculado, aluno estar na disciplina e o aluno estar ausente na aula em que pretende-se registrar a falta. |
+| Pós-condição | Verificar se a falta foi registrada. |
+| Efeitos | Caso a porcentagem de presença do aluno esteja entre 75% e 80%, uma notificação deve ser enviada aos responsáveis. |
 
 | **Revogar falta** | **Descrição** |
 | :------- | :--- |
-| Função | |
-| Descrição | |
-| Entradas | | 
-| Ator | |
-| Saída | |
-| Destino | |
-| Ação | |
-| Requer | |
-| Pré-condição | |
-| Pós-condição | |
-| Efeitos | |
+| Função | Remover do banco de dados a ausência(falta) cadastrada para um aluno em uma disciplina. |
+| Descrição |Remove uma falta registrada para um aluno caso a falta tenha sido justificada (por exemplo, atestado), recalculando o total de faltas do aluno.|
+| Entradas | Registro Acadêmico(RA) do aluno, disciplina em que esteve registrado como ‘ausente’ e o professor responsável. | 
+| Ator | Professor responsável. |
+| Saída | Decréscimo no total de faltas do aluno no sistema. |
+| Destino | Banco de dados do sistema. |
+| Ação | O sistema busca no banco de dados o aluno especificado com base no RA. Com base nas informações da entrada, busca a falta armazenada no sistema. Retira essa falta, atualizando no banco de dados o total de faltas. |
+| Requer | Todas as informações de entrada são obrigatórias, visando realizar a busca do aluno no banco de dados. |
+| Pré-condição | O aluno estar matriculado, aluno estar na disciplina e o aluno estar registrado como ‘ausente’. |
+| Pós-condição |Verificar se a falta foi revogada. |
+| Efeitos | Nenhum. |
 
 | **Gerar relatório** | **Descrição** |
 | :------- | :--- |
@@ -104,17 +105,17 @@ Disponível em [here](./diagramas/diagrama-de-atividades.png)
 
 | **Enviar notificação** | **Descrição** |
 | :------- | :--- |
-| Função |  |
-| Descrição | |
-| Entradas | | 
-| Ator | |
-| Saída | |
-| Destino | |
-| Ação | |
-| Requer | |
-| Pré-condição | |
-| Pós-condição | |
-| Efeitos | |
+| Função | Enviar um comunicado via e-mail para o(s) responsável(is) de um aluno. |
+| Descrição |Envia uma notificação ao(s) responsável(is) informando que o percentual de presença do aluno está próximo de 75%, o percentual limite para não reprovar. |
+| Entradas |Registro Acadêmico(RA) do aluno, e-mail do(s) responsável(is). | 
+| Ator |Sistema. |
+| Saída | E-mail enviado ao(s) responsável(is).|
+| Destino | Caixa de Entrada do E-mail do(s) responsável(is).|
+| Ação | O sistema busca no banco de dados o aluno especificado com base no RA. Com base no e-mail relacionado ao(s) responsável(is) desse aluno, envia o comunicado. |
+| Requer | Todas as informações de entrada são obrigatórias, visando realizar a busca do busca do e-mail de destino. |
+| Pré-condição | O aluno estar matriculado, ter um responsável cadastrado, ter menos de 80% de presença.|
+| Pós-condição |O e-mail ser enviado e o(s) responsável(is) receber(em). |
+| Efeitos | Nenhum. |
 
 # Diagrama de Sequência
 
