@@ -70,8 +70,7 @@ Disponível em [here](./diagramas/diagrama-casos-de-uso.jpg)
 | Ator | Professor |
 | Saída | Informações referentes ao aluno. |
 | Destino | Tela de informações gerais do sistema. |
-| Ação | O sistema busca no banco de dados o aluno especificado com base no Registro Acadêmico. Validando sua existência, retorna
-Nome e Turma.  |
+| Ação | O sistema busca no banco de dados o aluno especificado com base no Registro Acadêmico. Validando sua existência, retorna Nome e Turma. |
 | Pré-condição | O aluno estar matriculado e ter seu Registro Acadêmico no sistema. |
 | Pós-condição |  Informações solicitadas serem retornadas. |
 | Efeitos | Nenhum. |
