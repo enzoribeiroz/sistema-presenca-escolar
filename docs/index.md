@@ -65,8 +65,7 @@ Disponível em [here](./diagramas/diagrama-de-atividades.png)
 | Função | Cadastrar a ausência(falta) de um aluno em uma disciplina. |
 | Descrição | Registra no sistema que o aluno estava ausente em uma aula, acrescendo essa falta ao total de faltas do aluno. |
 | Entradas | Registro Acadêmico do aluno(RA), disciplina em que esteve ausente e o professor responsável. | 
-| Atores | *Ativo*: Professor responsável
-           *Passivo*: Responsável|
+| Atores | *Ativo*: Professor responsável  *Passivo*: Responsável|
 | Saída | Acréscimo no total de faltas do aluno no sistema. |
 | Destino | Banco de dados do sistema (e responsável - Efeitos colaterais).|
 | Ação | O sistema busca no banco de dados o aluno especificado. Com base nas informações da entrada, cadastra uma falta para esse aluno e calcula o percentual de presença. Se o percentual de presença estiver entre 75% e 80%, uma notificação via e-mail é emitida para os responsáveis. (ver Notificação). |
