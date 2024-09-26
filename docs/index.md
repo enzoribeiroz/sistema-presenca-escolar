@@ -134,62 +134,62 @@ Disponível em [here](./diagramas/diagrama-casos-de-uso.jpg)
 <h2>Modelagem dos casos de uso</h2>
 
 <h3>Procurar Aluno</h3>
-1) Professor acessa o sistema com seu login e senha.
-2) Sistema valida o login.
-3) Professor faz a busca por um aluno usado seu Registro Acadêmico.
-4) Sistema faz uma busca no banco de dados e retorna o aluno especificado.
-5) Sistema exibe ações possíveis relativas ao aluno
+1) Professor acessa o sistema com seu login e senha.<br>
+2) Sistema valida o login.<br>
+3) Professor faz a busca por um aluno usado seu Registro Acadêmico.<br>
+4) Sistema faz uma busca no banco de dados e retorna o aluno especificado.<br>
+5) Sistema exibe ações possíveis relativas ao aluno.<br>
 6) Caso de uso termina.
 
 <h3>Registrar Falta</h3>
-1) Professor acessa o sistema com seu login e senha.
-2) Sistema valida o login.
-3) Professor faz a busca por um aluno usado seu Registro Acadêmico. ( Ver *Procurar Aluno*)
-4) Sistema faz uma busca no banco de dados e retorna o aluno especificado.
-5) Professor seleciona a opção de "Registrar Falta".
-6) Sistema fornece os campos a serem preenchidos (Disciplina, Horário da Aula).
-7) Professor preenche os campos e confirma a falta.
-  7.1) Com base no login do professor, o Sistema já obtém o "Nome do Professor".
-8) Sistema adiciona ao banco de dados a falta e recalcula o percentual de presença.
+1) Professor acessa o sistema com seu login e senha.<br>
+2) Sistema valida o login.<br>
+3) Professor faz a busca por um aluno usado seu Registro Acadêmico. ( Ver *Procurar Aluno*)<br>
+4) Sistema faz uma busca no banco de dados e retorna o aluno especificado.<br>
+5) Professor seleciona a opção de "Registrar Falta".<br>
+6) Sistema fornece os campos a serem preenchidos (Disciplina, Horário da Aula).<br>
+7) Professor preenche os campos e confirma a falta.<br>
+  7.1) Com base no login do professor, o Sistema já obtém o "Nome do Professor".<br>
+8) Sistema adiciona ao banco de dados a falta e recalcula o percentual de presença.<br>
 9) Caso de uso termina.
 
 <h3>Revogar Falta</h3>
-1) Professor acessa o sistema com seu login e senha.
-2) Sistema valida o login.
-3) Professor faz a busca por um aluno usado seu Registro Acadêmico. ( Ver *Procurar Aluno*)
-4) Sistema faz uma busca no banco de dados e retorna o aluno especificado.
-5) Professor seleciona a opção de "Revogar Falta".
-6) Sistema fornece as faltas associadas ao "Nome do Professor".
-7) Professor seleciona a falta a ser revogada.
-8) Sistema fornece o campo "Justificativa" para ser preenchido.
-9) Professor preenche o campo e confirma.
-10) Sistema retira a falta do banco de dados.
+1) Professor acessa o sistema com seu login e senha.<br>
+2) Sistema valida o login.<br>
+3) Professor faz a busca por um aluno usado seu Registro Acadêmico. ( Ver *Procurar Aluno*)<br>
+4) Sistema faz uma busca no banco de dados e retorna o aluno especificado.<br>
+5) Professor seleciona a opção de "Revogar Falta".<br>
+6) Sistema fornece as faltas associadas ao "Nome do Professor".<br>
+7) Professor seleciona a falta a ser revogada.<br>
+8) Sistema fornece o campo "Justificativa" para ser preenchido.<br>
+9) Professor preenche o campo e confirma.<br>
+10) Sistema retira a falta do banco de dados.<br>
 11) Caso de uso termina.
 
 <h3>Gerar Relatório de Faltas-> Professor</h3>
-1) Professor acessa o sistema com seu login e senha.
-2) Sistema valida o login.
-3) Professor seleciona a opção de Gerar Relatório.
-4) Sistema fornece os campos a serem preenchidos (Turma, Série, Disciplina)
-5) Professor seleciona valores específicos ou gerais para cada campo.
-6) Sistema realiza a busca no banco de dados e retorna os dados solicitados.
-7) Professor seleciona a opção "Gerar PDF", caso queira um documento para imprimir.
-  7.1) Sistema gera o documento em formato PDF, caso a opção seja selecionada.
+1) Professor acessa o sistema com seu login e senha.<br>
+2) Sistema valida o login.<br>
+3) Professor seleciona a opção de Gerar Relatório.<br>
+4) Sistema fornece os campos a serem preenchidos (Turma, Série, Disciplina).<br>
+5) Professor seleciona valores específicos ou gerais para cada campo.<br>
+6) Sistema realiza a busca no banco de dados e retorna os dados solicitados.<br>
+7) Professor seleciona a opção "Gerar PDF", caso queira um documento para imprimir.<br>
+  7.1) Sistema gera o documento em formato PDF, caso a opção seja selecionada.<br>
 8) Caso de uso termina.
 
 <h3>Gerar Relatório de Faltas -> Responsável</h3>
-1) Responsável acessa o sistema com seu login e senha.
-2) Sistema valida o login.
-3) Responsável seleciona a opção de Gerar Relatório.
-4) Sistema fornece os dados referentes ao(s) aluno(s).
-5) Responsável seleciona a opção "Gerar PDF", caso queira um documento para imprimir.
-  5.1) Sistema gera o documento em formato PDF, caso a opção seja selecionada.
+1) Responsável acessa o sistema com seu login e senha.<br>
+2) Sistema valida o login.<br>
+3) Responsável seleciona a opção de Gerar Relatório.<br>
+4) Sistema fornece os dados referentes ao(s) aluno(s).<br>
+5) Responsável seleciona a opção "Gerar PDF", caso queira um documento para imprimir.<br>
+  5.1) Sistema gera o documento em formato PDF, caso a opção seja selecionada.<br>
 6) Caso de uso termina.
 
 <h3>Enviar Notificação</h3>
-1) Sistema busca o e-mail dos responsáveis relacionados ao RA de um aluno.
-2) Sistema envia um e-mail padrão, informando a baixa presença do aluno.
-3) Responsável recebe o e-mail
+1) Sistema busca o e-mail dos responsáveis relacionados ao RA de um aluno.<br>
+2) Sistema envia um e-mail padrão, informando a baixa presença do aluno.<br>
+3) Responsável recebe o e-mail.<br>
 4) Caso de uso termina.
 
 <h2>Histórias de Usuário</h2>
