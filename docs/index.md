@@ -74,23 +74,9 @@ Disponível em [here](./diagramas/diagrama-de-atividades.png)
 | Pós-condição | |
 | Efeitos | |
 
-| **Procurar aluno** | **Descrição** |
-| :------- | :--- |
-| Função |  |
-| Descrição | |
-| Entradas | | 
-| Ator | |
-| Saída | |
-| Destino | |
-| Ação | |
-| Requer | |
-| Pré-condição | |
-| Pós-condição | |
-| Efeitos | |
-
 | **Revogar falta** | **Descrição** |
 | :------- | :--- |
-| Função |  |
+| Função | |
 | Descrição | |
 | Entradas | | 
 | Ator | |
@@ -104,17 +90,17 @@ Disponível em [here](./diagramas/diagrama-de-atividades.png)
 
 | **Gerar relatório** | **Descrição** |
 | :------- | :--- |
-| Função |  |
-| Descrição | |
-| Entradas | | 
-| Ator | |
-| Saída | |
-| Destino | |
-| Ação | |
-| Requer | |
-| Pré-condição | |
-| Pós-condição | |
-| Efeitos | |
+| Função | Criar um relatório em formato PDF para que os professores ou responsáveis vejam informações sobre a presença de um aluno (responsáveis e professores), turma, disciplina ou série (apenas professores). |
+| Descrição | Gera um arquivo com dados da presença do grupo selecionado, dependendo da requisição e permissão feita pelo responsável ou professor. Caso um responsável tente gerar o relatório, apenas os dados do seu respectivo aluno serão expostos, caso seja um professor, ele deve indicar o que busca no relatório, uma turma, série ou disciplina. |
+| Entradas | Aluno, turma, série ou disciplina. | 
+| Ator | Professor ou responsável. |
+| Saída | Relatório em formato PDF. |
+| Destino | Tela de informações gerais do sistema. |
+| Ação | O sistema busca as faltas de uma lista de alunos conforme a seleção determinada pelo usuário e suas permissões. Por exemplo, caso o professor busque um relatório de faltas para uma turma específica, o sistema busca todos os alunos da turma, seus respectivos indicadores de presença e sumariza as informações num único relatório para o professor. |
+| Requer | 1 aluno cadastrado no sistema de presenças. |
+| Pré-condição | No filtro de seleção de alunos, há pelo menos 1 aluno cadastrado. |
+| Pós-condição | Nenhuma |
+| Efeitos | Nenhum |
 
 | **Enviar notificação** | **Descrição** |
 | :------- | :--- |
