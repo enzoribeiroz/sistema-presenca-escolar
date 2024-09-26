@@ -62,14 +62,14 @@ Disponível em [here](./diagramas/diagrama-de-atividades.png)
 
 | **Registrar falta** | **Descrição** |
 | :------- | :--- |
-| Função |  |
-| Descrição | |
-| Entradas | | 
-| Ator | |
-| Saída | |
-| Destino | |
-| Ação | |
-| Requer | |
+| Função | Cadastrar a ausência(falta) de um aluno em uma disciplina. |
+| Descrição | Registra no sistema que o aluno estava ausente em uma aula, acrescendo essa falta ao total de faltas do aluno. |
+| Entradas | Registro Acadêmico do aluno, disciplina em que esteve ausente e o professor responsável. | 
+| Ator | Professor responsável. |
+| Saída | Acréscimo no total de faltas do aluno no sistema. |
+| Destino | Banco de dados do sistema. |
+| Ação | O sistema busca no banco de dados o aluno especificado. Com base nas informações da entrada, cadastra uma falta para esse aluno. Se o percentual de presença estiver entre 75% e 80%, uma notificação via e-mail é emitida para os responsáveis. (ver Notificação). |
+| Requer | Todas as informações de entrada são obrigatórias para possível contestação da falta no futuro. |
 | Pré-condição | |
 | Pós-condição | |
 | Efeitos | |
