@@ -99,7 +99,7 @@ Disponível em [here](./diagramas/diagrama-casos-de-uso.jpg)
 | Ação | O sistema busca as faltas de uma lista de alunos conforme a seleção determinada pelo usuário e suas permissões. Por exemplo, caso o professor busque um relatório de faltas para uma turma específica, o sistema busca todos os alunos da turma, seus respectivos indicadores de presença e sumariza as informações num único relatório para o professor. |
 | Requer | 1 aluno cadastrado no sistema de presenças. |
 | Pré-condição | No filtro de seleção de alunos, há pelo menos 1 aluno cadastrado. |
-| Pós-condição | Nenhuma |
+| Pós-condição | Relatório é gerado com base nos dados solicitados. |
 | Efeitos | Nenhum |
 
 | **Enviar notificação** | **Descrição** |
