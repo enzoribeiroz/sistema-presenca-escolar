@@ -60,7 +60,75 @@ Disponível em [here](./diagramas/diagrama-de-atividades.png)
 
 # Descrição dos Casos de Uso
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+| **Registrar falta** | **Descrição** |
+| :------- | :--- |
+| Função |  |
+| Descrição | |
+| Entradas | | 
+| Ator | |
+| Saída | |
+| Destino | |
+| Ação | |
+| Requer | |
+| Pré-condição | |
+| Pós-condição | |
+| Efeitos | |
+
+| **Procurar aluno** | **Descrição** |
+| :------- | :--- |
+| Função |  |
+| Descrição | |
+| Entradas | | 
+| Ator | |
+| Saída | |
+| Destino | |
+| Ação | |
+| Requer | |
+| Pré-condição | |
+| Pós-condição | |
+| Efeitos | |
+
+| **Revogar falta** | **Descrição** |
+| :------- | :--- |
+| Função |  |
+| Descrição | |
+| Entradas | | 
+| Ator | |
+| Saída | |
+| Destino | |
+| Ação | |
+| Requer | |
+| Pré-condição | |
+| Pós-condição | |
+| Efeitos | |
+
+| **Gerar relatório** | **Descrição** |
+| :------- | :--- |
+| Função |  |
+| Descrição | |
+| Entradas | | 
+| Ator | |
+| Saída | |
+| Destino | |
+| Ação | |
+| Requer | |
+| Pré-condição | |
+| Pós-condição | |
+| Efeitos | |
+
+| **Enviar notificação** | **Descrição** |
+| :------- | :--- |
+| Função |  |
+| Descrição | |
+| Entradas | | 
+| Ator | |
+| Saída | |
+| Destino | |
+| Ação | |
+| Requer | |
+| Pré-condição | |
+| Pós-condição | |
+| Efeitos | |
 
 # Diagrama de Sequência
 
