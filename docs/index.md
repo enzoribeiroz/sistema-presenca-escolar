@@ -56,7 +56,7 @@ Disponível em [here](./diagramas/diagrama-de-atividades.png)
 
 # Diagrama de Casos de Uso
 
-*&lt;Diagrama para visualizar o comportamento dos atores&gt;*
+Disponível em [here](./diagramas/diagrama-casos-de-uso.jpg)
 
 # Descrição dos Casos de Uso
 
