@@ -91,13 +91,13 @@ _Requisitos funcionais:_<br>
 
 | **Gerar relatório de Faltas** | **Descrição** |
 | :------- | :--- |
-| Função | Criar um relatório em formato PDF para que os professores ou responsáveis vejam informações sobre a presença de um aluno (responsáveis e professores), turma, disciplina ou série (apenas professores). |
-| Descrição | Gera um arquivo com dados da presença do grupo selecionado, dependendo da requisição e permissão feita pelo responsável ou professor. Caso um responsável tente gerar o relatório, apenas os dados do seu respectivo aluno serão expostos, caso seja um professor, ele deve indicar o que busca no relatório, uma turma, série ou disciplina. |
+| Função | Criar um relatório de faltas em formato PDF. |
+| Descrição | Gera um arquivo com dados da presença do grupo selecionado, dependendo da requisição feita e permissão do usuário solicitante.|
 | Entradas | Aluno, turma, série ou disciplina. | 
 | Ator | Professor, Responsável ou Administração. |
 | Saída | Relatório em formato PDF. |
 | Destino | Tela de informações gerais do sistema. |
-| Ação | O sistema busca as faltas de uma lista de alunos conforme a seleção determinada pelo usuário e suas permissões. O Professor possui acesso as turmas e disciplinas que ele ministra; o Responsável possui acesso somente ao(s) estudante(s) pelo(s) qual(is) é responsável; Administração possui acesso a todos os alunos da escola. |
+| Ação | O sistema busca as faltas de uma lista de alunos conforme a seleção determinada pelo usuário e suas permissões. O Professor possui acesso às turmas e disciplinas que ele ministra; o Responsável possui acesso somente ao(s) estudante(s) pelo(s) qual(is) é responsável; Administração possui acesso a todos os alunos da escola. |
 | Requer | 1 aluno cadastrado no sistema de presenças. |
 | Pré-condição | No filtro de seleção de alunos, há pelo menos 1 aluno cadastrado. |
 | Pós-condição | Relatório é gerado com base nos dados solicitados. |
