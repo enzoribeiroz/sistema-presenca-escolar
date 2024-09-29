@@ -18,8 +18,7 @@ aplicação.*
 
 # Documentação
 
-Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **[[https://<usuario>.github.io/UML-Classroom-FCI/blob/master/docs/index.md](https://enzoribeiroz.github.io/sistema-presenca-escolar/)](url)**
-
+Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://enzoribeiroz.github.io/sistema-presenca-escolar/**
 
 
 # Releases
