@@ -55,7 +55,7 @@ _Requisitos funcionais:_<br>
 
 # Diagrama de Casos de Uso
 
-![](./assets/diagrama-casos-de-uso.png)
+![](./assets/diagrama_casos_de_uso.png)
 
 # Descrição dos Casos de Uso
 
