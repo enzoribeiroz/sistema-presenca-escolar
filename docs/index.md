@@ -51,7 +51,7 @@ _Requisitos funcionais:_<br>
 
 # Diagrama de Atividades
 
-![](./assets/diagrama-de-atividades.png)
+![](./assets/diagrama-de-atividades.jpg)
 
 # Diagrama de Casos de Uso
 
