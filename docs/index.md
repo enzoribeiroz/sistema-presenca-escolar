@@ -61,19 +61,6 @@ _Requisitos funcionais:_<br>
 
 <h2>Especificação de Requisitos</h2>
 
-| **Procurar aluno** | **Descrição** |
-| :------- | :--- |
-| Função | Buscar dados de um aluno. |
-| Descrição | Buscar informações referentes a um aluno com base em seu Registro Acadêmico.|
-| Entradas | Registro Acadêmico(RA) do aluno. | 
-| Ator | Professor |
-| Saída | Informações referentes ao aluno. |
-| Destino | Tela de informações gerais do sistema. |
-| Ação | O sistema busca no banco de dados o aluno especificado com base no Registro Acadêmico. Validando sua existência, retorna Nome e Turma. |
-| Pré-condição | O aluno estar matriculado e ter seu Registro Acadêmico no sistema. |
-| Pós-condição |  Informações solicitadas serem retornadas. |
-| Efeitos | Nenhum. |
-
 | **Registrar falta** | **Descrição** |
 | :------- | :--- |
 | Função | Cadastrar a ausência(falta) de um aluno em uma disciplina. |
@@ -93,7 +80,7 @@ _Requisitos funcionais:_<br>
 | Função | Remover do banco de dados a ausência(falta) cadastrada para um aluno em uma disciplina. |
 | Descrição |Remove uma falta registrada para um aluno caso a falta tenha sido justificada (por exemplo, atestado), recalculando o total de faltas do aluno.|
 | Entradas | Registro Acadêmico(RA) do aluno, disciplina em que esteve registrado como ‘ausente’ e o professor responsável. | 
-| Ator | Professor. |
+| Ator | Administração. |
 | Saída | Decréscimo no total de faltas do aluno no sistema. |
 | Destino | Banco de dados do sistema. |
 | Ação | O sistema busca no banco de dados o aluno especificado com base no RA. Com base nas informações da entrada, busca a falta armazenada no sistema. Retira essa falta, atualizando no banco de dados o total de faltas. |
@@ -107,10 +94,10 @@ _Requisitos funcionais:_<br>
 | Função | Criar um relatório em formato PDF para que os professores ou responsáveis vejam informações sobre a presença de um aluno (responsáveis e professores), turma, disciplina ou série (apenas professores). |
 | Descrição | Gera um arquivo com dados da presença do grupo selecionado, dependendo da requisição e permissão feita pelo responsável ou professor. Caso um responsável tente gerar o relatório, apenas os dados do seu respectivo aluno serão expostos, caso seja um professor, ele deve indicar o que busca no relatório, uma turma, série ou disciplina. |
 | Entradas | Aluno, turma, série ou disciplina. | 
-| Ator | Professor ou Responsável. |
+| Ator | Professor, Responsável ou Administração. |
 | Saída | Relatório em formato PDF. |
 | Destino | Tela de informações gerais do sistema. |
-| Ação | O sistema busca as faltas de uma lista de alunos conforme a seleção determinada pelo usuário e suas permissões. Por exemplo, caso o professor busque um relatório de faltas para uma turma específica, o sistema busca todos os alunos da turma, seus respectivos indicadores de presença e sumariza as informações num único relatório para o professor. |
+| Ação | O sistema busca as faltas de uma lista de alunos conforme a seleção determinada pelo usuário e suas permissões. O Professor possui acesso as turmas e disciplinas que ele ministra; o Responsável possui acesso somente ao(s) estudante(s) pelo(s) qual(is) é responsável; Administração possui acesso a todos os alunos da escola. |
 | Requer | 1 aluno cadastrado no sistema de presenças. |
 | Pré-condição | No filtro de seleção de alunos, há pelo menos 1 aluno cadastrado. |
 | Pós-condição | Relatório é gerado com base nos dados solicitados. |
@@ -132,14 +119,6 @@ _Requisitos funcionais:_<br>
 
 <h2>Modelagem dos casos de uso</h2>
 
-<h3>Procurar Aluno</h3>
-1) Professor acessa o sistema com seu login e senha.<br>
-2) Sistema valida o login.<br>
-3) Professor faz a busca por um aluno usado seu Registro Acadêmico.<br>
-4) Sistema faz uma busca no banco de dados e retorna o aluno especificado.<br>
-5) Sistema exibe ações possíveis relativas ao aluno.<br>
-6) Caso de uso termina.
-
 <h3>Registrar Falta</h3>
 1) Professor acessa o sistema com seu login e senha.<br>
 2) Sistema valida o login.<br>
@@ -153,26 +132,26 @@ _Requisitos funcionais:_<br>
 9) Caso de uso termina.
 
 <h3>Revogar Falta</h3>
-1) Professor acessa o sistema com seu login e senha.<br>
+1) Adiministração acessa o sistema com seu login e senha.<br>
 2) Sistema valida o login.<br>
-3) Professor faz a busca por um aluno usado seu Registro Acadêmico. ( Ver *Procurar Aluno*)<br>
+3) Administração faz a busca por um aluno usado seu Registro Acadêmico. <br>
 4) Sistema faz uma busca no banco de dados e retorna o aluno especificado.<br>
-5) Professor seleciona a opção de "Revogar Falta".<br>
-6) Sistema fornece as faltas associadas ao "Nome do Professor".<br>
-7) Professor seleciona a falta a ser revogada.<br>
-8) Sistema fornece o campo "Justificativa" para ser preenchido.<br>
-9) Professor preenche o campo e confirma.<br>
+5) Administração seleciona a opção de "Revogar Falta".<br>
+6) Sistema fornece as faltas associadas ao aluno.<br>
+7) Administração seleciona a falta a ser revogada.<br>
+8) Sistema fornece a opção "Confirmar" para ser selecionada.<br>
+9) Administração confirma a ação.<br>
 10) Sistema retira a falta do banco de dados.<br>
 11) Caso de uso termina.
 
-<h3>Gerar Relatório de Faltas-> Professor</h3>
-1) Professor acessa o sistema com seu login e senha.<br>
+<h3>Gerar Relatório de Faltas-> Professor ou Administração</h3>
+1) Professor ou Administração acessa o sistema com seu login e senha.<br>
 2) Sistema valida o login.<br>
-3) Professor seleciona a opção de Gerar Relatório.<br>
+3) Professor ou Administração seleciona a opção de Gerar Relatório.<br>
 4) Sistema fornece os campos a serem preenchidos (Turma, Série, Disciplina).<br>
-5) Professor seleciona valores específicos ou gerais para cada campo.<br>
+5) Professor ou Administração seleciona valores específicos ou gerais para cada campo.<br>
 6) Sistema realiza a busca no banco de dados e retorna os dados solicitados.<br>
-7) Professor seleciona a opção "Gerar PDF", caso queira um documento para imprimir.<br>
+7) Professor ou Administração seleciona a opção "Gerar PDF", caso queira um documento para imprimir.<br>
   7.1) Sistema gera o documento em formato PDF, caso a opção seja selecionada.<br>
 8) Caso de uso termina.
 
@@ -193,9 +172,11 @@ _Requisitos funcionais:_<br>
 
 <h2>Histórias de Usuário</h2>
 
-<h4>Como Professor quero buscar alunos no sistema, registra e revogar faltas, além de obter relatórios de faltas, filtrando por turma e disciplina. </h4>
+<h4>Como Professor quero registrar faltas e obter relatórios de faltas. </h4>
 
 <h4>Como Responsável quero obter o relatório de faltas do(s) estudante(s) que matriculei. </h4>
+
+<h4>Como Administração quero revogar faltas e obter relatórios de faltas. </h4>
 
 # Diagrama de Sequência
 
