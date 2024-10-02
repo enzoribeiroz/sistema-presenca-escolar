@@ -172,11 +172,11 @@ _Requisitos funcionais:_<br>
 
 <h2>Histórias de Usuário</h2>
 
-<h4>Como Professor quero registrar faltas e obter relatórios de faltas. </h4>
+<h4>Como professor, quero registrar faltas e obter relatórios de faltas, a fim de marcar faltas para os alunos que não vierem nas aulas e ter um controle da presença de meus alunos. </h4>
 
-<h4>Como Responsável quero obter o relatório de faltas do(s) estudante(s) que matriculei. </h4>
+<h4>Como responsável, quero obter o relatório de faltas do(s) estudante(s) que matriculei, a fim de controlar a frequência com a qual estão participando das aulas. </h4>
 
-<h4>Como Administração quero revogar faltas e obter relatórios de faltas. </h4>
+<h4>Como administração, quero revogar faltas e obter relatórios de faltas, a fim de retirar faltas que forem justificadas e ter um controle da presença de todos os alunos da escola. </h4>
 
 # Diagrama de Sequência
 
