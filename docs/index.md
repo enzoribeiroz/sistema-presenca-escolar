@@ -181,23 +181,23 @@ _Requisitos funcionais:_<br>
 # Diagrama de Sequência
 <h3>Registrar Falta</h3>
 
-![]("./assets/Diagrama-Sequencia-registrarFalta.png")
+![](./assets/Diagrama-Sequencia-registrarFalta.png)
 
 <h3>Revogar Falta</h3>
 
-![]("./assets/Diagrama-Sequencia-revogarFalta.png")
+![](./assets/Diagrama-Sequencia-revogarFalta.png)
 
 <h3>Relatório: Responsável</h3>
 
-![]("./assets/Diagrama-Sequencia-Relatorio-Responsavel.png")
+![](./assets/Diagrama-Sequencia-Relatorio-Responsavel.png)
 
 <h3>Relatório: Professor</h3>
 
-![]("./assets/Diagrama-Sequencia-Relatorio-Professor.png")
+![](./assets/Diagrama-Sequencia-Relatorio-Professor.png)
 
 <h3>Relatório: Administração</h3>
 
-![]("./assets/Diagrama-Sequencia-Relatorio-Admin.png")
+![](./assets/Diagrama-Sequencia-Relatorio-Admin.png)
 
 # Diagrama de Classes
 
