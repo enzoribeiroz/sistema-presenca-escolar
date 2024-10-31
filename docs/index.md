@@ -179,8 +179,25 @@ _Requisitos funcionais:_<br>
 <h4>Como administração, quero revogar faltas e obter relatórios de faltas, a fim de retirar faltas que forem justificadas e ter um controle da presença de todos os alunos da escola. </h4>
 
 # Diagrama de Sequência
+<h3>Registrar Falta</h3>
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+![]("./assets/Diagrama-Sequencia-registrarFalta.png")
+
+<h3>Revogar Falta</h3>
+
+![]("./assets/Diagrama-Sequencia-revogarFalta.png")
+
+<h3>Relatório: Responsável</h3>
+
+![]("./assets/Diagrama-Sequencia-Relatorio-Responsavel.png")
+
+<h3>Relatório: Professor</h3>
+
+![]("./assets/Diagrama-Sequencia-Relatorio-Professor.png")
+
+<h3>Relatório: Administração</h3>
+
+![]("./assets/Diagrama-Sequencia-Relatorio-Admin.png")
 
 # Diagrama de Classes
 
