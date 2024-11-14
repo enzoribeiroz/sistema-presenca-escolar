@@ -201,7 +201,7 @@ _Requisitos funcionais:_<br>
 
 # Diagrama de Classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+![](./assets/diagrama-de-classe.png)
 
 # Diagrama de Estados
 
