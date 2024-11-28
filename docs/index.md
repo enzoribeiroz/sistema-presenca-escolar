@@ -210,9 +210,10 @@ _Requisitos funcionais:_<br>
 ![](./assets/estados_registrar.PNG)
 ![](./assets/estados_revogar.PNG)
 
+
 # Diagrama de Implantação
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+![](./assets/implantacao.PNG)
 
 # Referências
 
