@@ -217,4 +217,5 @@ _Requisitos funcionais:_<br>
 
 # Referências
 
-*&lt;Lista de referências&gt;*
+SOMMERVILLE, I. Engenharia de software. 10. ed. São Paulo: Pearson Education do Brasil, 2018
+
