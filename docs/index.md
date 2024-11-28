@@ -205,10 +205,10 @@ _Requisitos funcionais:_<br>
 
 # Diagrama de Estados
 
-![](./assets/estados_login.png)
-![](./assets/estados_relatorio.png)
-![](./assets/estados_registrar.png)
-![](./assets/estados_revogar.png)
+![](./assets/estados_login.PNG)
+![](./assets/estados_relatorio.PNG)
+![](./assets/estados_registrar.PNG)
+![](./assets/estados_revogar.PNG)
 
 # Diagrama de Implantação
 
